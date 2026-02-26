@@ -1,9 +1,7 @@
-====================================================================
 MAS 2025-26 - First Lab Assignment: Programming Agents with JADE
 ====================================================================
-Authors: Francisco Manuel Vazquez Fernandez
+Author: Francisco Manuel Vazquez Fernandez
 Master in Artificial Intelligence (USC)
-====================================================================
 
 DESCRIPTION
 This package contains the source code, compiled classes, and execution 
@@ -22,7 +20,7 @@ To compile all agents manually from the source code, run:
 
     javac -cp $CP *.java
 
-EXECUTION 1: COMMAND LINE INSTANTIATION
+EXECUTION: COMMAND LINE INSTANTIATION
 As requested in the assignment guidelines, you can instantiate the agents 
 directly from the command line. The agents accept a single integer 
 argument defining their "commitment" parameter.
