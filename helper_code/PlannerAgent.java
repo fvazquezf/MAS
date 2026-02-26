@@ -135,41 +135,30 @@ public class PlannerAgent extends Agent {
             }
         }
     }
-    // --- DELIBERATIVE DECISION LOGIC ---
 
     private Position findDeliberativeMove() {
         Map currentMap = myState.getMap();
         Position currentPos = myState.getPosition();
 
-        // 1. UPDATE CLOCK: Did we just get a fresh map from our commitment?
         turnsSinceLastUpdate++;
         if (turnsSinceLastUpdate >= commitment) {
             turnsSinceLastUpdate = 0;
             stepsTakenSinceUpdate = 0;
-            waitingForFreshMap = false; // We can trust the world again
-            // System.out.println(getLocalName() + " got a fresh map! Resetting counters.");
+            waitingForFreshMap = false; 
         }
 
-        // 2. LEARNING TRIGGER: Did we hit something unexpected?
-        // If we asked to move last turn, but we are still in the same spot, we hit an invisible trap!
         if (lastRequestedPosition != null && !currentPos.equals(lastRequestedPosition) && !waitingForFreshMap) {
-            
-            // We failed! Update our learned counter to the number of successful steps we took.
-            // We use Math.max(1, ...) so the agent never learns a limit of 0 (which would freeze it forever).
             learnedMaxSafeSteps = Math.max(1, stepsTakenSinceUpdate);
             
             System.out.println(getLocalName() + " bumped into something! Updating learnedMaxSafeSteps to: " + learnedMaxSafeSteps);
             
-            waitingForFreshMap = true; // Drop everything and wait for a fresh map
+            waitingForFreshMap = true; 
         }
-
-        // 3. APPLY LEARNED LIMIT: Stop moving if we reach the max safe steps
         if (waitingForFreshMap || stepsTakenSinceUpdate >= learnedMaxSafeSteps) {
             lastRequestedPosition = currentPos; 
-            return currentPos; // Refuse to move, avoid trap penalties!
+            return currentPos; 
         }
 
-        // 4. NORMAL PLANNING
         if (needsReplanning(currentMap, currentPos)) {
             currentPlan = calculatePathBFS(currentMap, currentPos);
             if (!currentPlan.isEmpty()) {
@@ -179,15 +168,13 @@ public class PlannerAgent extends Agent {
             }
         }
 
-        // 5. EXECUTE PLAN
         if (currentPlan != null && !currentPlan.isEmpty()) {
             Position nextStep = currentPlan.remove(0);
-            lastRequestedPosition = nextStep; // Remember where we tried to go
-            stepsTakenSinceUpdate++;          // Increment our safe steps counter
+            lastRequestedPosition = nextStep;
+            stepsTakenSinceUpdate++;     
             return nextStep;
         }
 
-        // Fallback: stay still if no items exist
         lastRequestedPosition = currentPos;
         return currentPos;
     }
@@ -203,9 +190,8 @@ public class PlannerAgent extends Agent {
     }
 
     private List<Position> calculatePathBFS(Map map, Position start) {
-        // Breadth-First Search ensures we find the shortest path
         Queue<List<Position>> queue = new LinkedList<>();
-        Set<String> visited = new HashSet<>(); // Using Strings "x,y" because Position might not have a reliable hashCode()
+        Set<String> visited = new HashSet<>();
 
         List<Position> startPath = new ArrayList<>();
         queue.add(startPath);
@@ -215,18 +201,15 @@ public class PlannerAgent extends Agent {
             List<Position> path = queue.poll();
             Position current = path.isEmpty() ? start : path.get(path.size() - 1);
 
-            // If we reached an item, we found our optimal path!
             if (map.isItemPosition(current)) {
                 return path; 
             }
 
-            // Use the professor's MapNavigator to get adjacent nodes
             List<Position> neighbors = navigator.getNextPossiblePositions(map, current);
 
             for (Position neighbor : neighbors) {
                 String posKey = neighbor.x + "," + neighbor.y;
                 
-                // Only explore if it's unvisited and NOT a trap
                 if (!visited.contains(posKey) && !map.isTrapPosition(neighbor)) {
                     visited.add(posKey);
                     
@@ -237,7 +220,7 @@ public class PlannerAgent extends Agent {
             }
         }
 
-        return new ArrayList<>(); // Returns empty plan if no items are reachable
+        return new ArrayList<>(); 
     }
 
     private Position getRandomSafeStep(Map map, Position current) {
@@ -248,7 +231,7 @@ public class PlannerAgent extends Agent {
             if (!map.isTrapPosition(p)) safeMoves.add(p);
         }
         
-        if (safeMoves.isEmpty()) return current; // Completely trapped
+        if (safeMoves.isEmpty()) return current; 
         return safeMoves.get(new Random().nextInt(safeMoves.size()));
     }
 }

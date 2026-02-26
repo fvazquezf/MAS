@@ -128,40 +128,32 @@ public class GreedyAgent extends Agent {
         }
     }
 
-    // --- GREEDY DECISION LOGIC ---
-
     private Position findGreedyMove() {
         Map currentMap = myState.getMap();
         Position currentPos = myState.getPosition();
 
-        // 1. Get all adjacent moves that are safely inside the map and are NOT traps
         List<Position> safeMoves = getSafeAdjacentMoves(currentMap, currentPos);
 
-        // If surrounded by traps or edges, stay still to avoid -1 penalty
         if (safeMoves.isEmpty()) {
             return currentPos; 
         }
 
-        // 2. Find all visible items on the map
         LinkedList<Position> items = currentMap.getItemPositions();
 
-        // If no items are visible, just wander safely
         if (items.isEmpty()) {
             return safeMoves.get(new Random().nextInt(safeMoves.size()));
         }
 
-        // 3. Find the closest item on the map
         Position closestItem = getClosestTarget(currentPos, items);
 
-        // 4. Choose the safe move that gets us closest to that target item
         return getBestMoveTowardsTarget(safeMoves, closestItem);
     }
 
     private List<Position> getSafeAdjacentMoves(Map map, Position current) {
         List<Position> moves = new ArrayList<>();
         Position[] possibleMoves = {
-            new Position(current.x - 1, current.y), // Up / Left
-            new Position(current.x + 1, current.y), // Down / Right
+            new Position(current.x - 1, current.y), 
+            new Position(current.x + 1, current.y), 
             new Position(current.x, current.y - 1),
             new Position(current.x, current.y + 1)
         };

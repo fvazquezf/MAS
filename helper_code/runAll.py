@@ -47,7 +47,6 @@ def run_all_experiments():
 
     print("Starting Automated Experiment Pipeline (320 runs)...")
     
-    # We start at port 1100 and go up to avoid the default 1099 entirely
     current_port = 1100 
 
     for scen_name, (traps, redist) in SCENARIOS.items():
@@ -69,7 +68,6 @@ def run_all_experiments():
                 
                 filename = f"{RESULTS_DIR}/{scen_name}__{setup_name}__rep{rep}.asp"
                 
-                # --- THE FIX: Pass the dynamic port to JADE ---
                 cmd = f'java -cp {CP} jade.Boot -port {current_port} -agents "sim:SimulatorAgent;{agents_str}"'
                 
                 with open(filename, "w") as f:
@@ -79,7 +77,6 @@ def run_all_experiments():
                     except subprocess.TimeoutExpired:
                         print(f" TIMEOUT! (Agent got stuck. Check {filename})")
                 
-                # Increment port for the next run
                 current_port += 1
 
     print("\nAll experiments completed successfully!")
