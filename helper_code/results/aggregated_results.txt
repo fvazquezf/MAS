@@ -1,0 +1,224 @@
+====================================================
+      MAS LAB 1 - AGGREGATED SIMULATION RESULTS     
+====================================================
+
+### FIXED 0 TRAPS ###
+  Setup: Greedy_alone_20
+    - Agent Type A (Greedy):
+        Average Score: 115.61 (from 10 runs)
+        Average Traps Hit: 0.00
+
+  Setup: Greedy_alone_1
+    - Agent Type A (Greedy):
+        Average Score: 152.77 (from 10 runs)
+        Average Traps Hit: 0.00
+
+  Setup: Random_alone_20
+    - Random Agent:
+        Average Score: 10.75 (from 10 runs)
+        Average Traps Hit: 0.00
+
+  Setup: All3_together_20
+    - Random Agent:
+        Average Score: 11.29 (from 10 runs)
+        Average Traps Hit: 0.00
+    - Agent Type A (Greedy):
+        Average Score: 65.36 (from 10 runs)
+        Average Traps Hit: 0.00
+    - Agent Type B (Planner):
+        Average Score: 11.22 (from 10 runs)
+        Average Traps Hit: 0.00
+
+  Setup: Planner_alone_1
+    - Agent Type B (Planner):
+        Average Score: 80.24 (from 10 runs)
+        Average Traps Hit: 0.00
+
+  Setup: Planner_alone_20
+    - Agent Type B (Planner):
+        Average Score: 98.54 (from 10 runs)
+        Average Traps Hit: 0.00
+
+  Setup: Random_alone_1
+    - Random Agent:
+        Average Score: 9.24 (from 9009 runs)
+        Average Traps Hit: 0.00
+
+  Setup: All3_together_1
+    - Agent Type A (Greedy):
+        Average Score: 62.80 (from 10 runs)
+        Average Traps Hit: 0.00
+    - Agent Type B (Planner):
+        Average Score: 56.62 (from 10 runs)
+        Average Traps Hit: 0.00
+    - Random Agent:
+        Average Score: 10.70 (from 10 runs)
+        Average Traps Hit: 0.00
+
+--------------------------------------------------
+
+### FIXED 10 TRAPS ###
+  Setup: Greedy_alone_1
+    - Agent Type A (Greedy):
+        Average Score: 3.95 (from 10 runs)
+        Average Traps Hit: 0.00
+
+  Setup: All3_together_1
+    - Agent Type A (Greedy):
+        Average Score: 30.16 (from 10 runs)
+        Average Traps Hit: 0.00
+    - Agent Type B (Planner):
+        Average Score: 39.61 (from 10 runs)
+        Average Traps Hit: 0.00
+    - Random Agent:
+        Average Score: -37.38 (from 10 runs)
+        Average Traps Hit: 46.18
+
+  Setup: Planner_alone_1
+    - Agent Type B (Planner):
+        Average Score: 65.54 (from 10 runs)
+        Average Traps Hit: 0.00
+
+  Setup: Random_alone_20
+    - Random Agent:
+        Average Score: -37.91 (from 10 runs)
+        Average Traps Hit: 45.14
+
+  Setup: All3_together_20
+    - Random Agent:
+        Average Score: -37.83 (from 10 runs)
+        Average Traps Hit: 49.06
+    - Agent Type B (Planner):
+        Average Score: 18.48 (from 10 runs)
+        Average Traps Hit: 0.00
+    - Agent Type A (Greedy):
+        Average Score: 28.71 (from 10 runs)
+        Average Traps Hit: 0.00
+
+  Setup: Planner_alone_20
+    - Agent Type B (Planner):
+        Average Score: 99.02 (from 10 runs)
+        Average Traps Hit: 0.00
+
+  Setup: Greedy_alone_20
+    - Agent Type A (Greedy):
+        Average Score: 7.23 (from 10 runs)
+        Average Traps Hit: 0.00
+
+  Setup: Random_alone_1
+    - Random Agent:
+        Average Score: -38.58 (from 10 runs)
+        Average Traps Hit: 46.11
+
+--------------------------------------------------
+
+### DYNAMIC 0 TRAPS ###
+  Setup: Greedy_alone_20
+    - Agent Type A (Greedy):
+        Average Score: 26.44 (from 10 runs)
+        Average Traps Hit: 0.00
+
+  Setup: Greedy_alone_1
+    - Agent Type A (Greedy):
+        Average Score: 132.92 (from 10 runs)
+        Average Traps Hit: 0.00
+
+  Setup: Random_alone_1
+    - Random Agent:
+        Average Score: 16.47 (from 10 runs)
+        Average Traps Hit: 0.00
+
+  Setup: Planner_alone_1
+    - Agent Type B (Planner):
+        Average Score: 131.86 (from 10 runs)
+        Average Traps Hit: 0.00
+
+  Setup: Random_alone_20
+    - Random Agent:
+        Average Score: 16.12 (from 10 runs)
+        Average Traps Hit: 0.00
+
+  Setup: All3_together_20
+    - Random Agent:
+        Average Score: 17.36 (from 10 runs)
+        Average Traps Hit: 0.00
+    - Agent Type A (Greedy):
+        Average Score: 20.76 (from 10 runs)
+        Average Traps Hit: 0.00
+    - Agent Type B (Planner):
+        Average Score: 4.85 (from 10 runs)
+        Average Traps Hit: 0.00
+
+  Setup: All3_together_1
+    - Agent Type B (Planner):
+        Average Score: 101.27 (from 10 runs)
+        Average Traps Hit: 0.00
+    - Agent Type A (Greedy):
+        Average Score: 110.31 (from 10 runs)
+        Average Traps Hit: 0.00
+    - Random Agent:
+        Average Score: 18.51 (from 10 runs)
+        Average Traps Hit: 0.00
+
+  Setup: Planner_alone_20
+    - Agent Type B (Planner):
+        Average Score: 25.40 (from 10 runs)
+        Average Traps Hit: 0.00
+
+--------------------------------------------------
+
+### DYNAMIC 10 TRAPS ###
+  Setup: Random_alone_20
+    - Random Agent:
+        Average Score: -32.64 (from 10 runs)
+        Average Traps Hit: 47.06
+
+  Setup: Planner_alone_20
+    - Agent Type B (Planner):
+        Average Score: -1.46 (from 10 runs)
+        Average Traps Hit: 5.63
+
+  Setup: Planner_alone_1
+    - Agent Type B (Planner):
+        Average Score: 109.18 (from 10 runs)
+        Average Traps Hit: 4.35
+
+  Setup: Greedy_alone_20
+    - Agent Type A (Greedy):
+        Average Score: -153.68 (from 10 runs)
+        Average Traps Hit: 167.47
+
+  Setup: Random_alone_1
+    - Random Agent:
+        Average Score: -37.07 (from 10 runs)
+        Average Traps Hit: 50.78
+
+  Setup: All3_together_1
+    - Agent Type A (Greedy):
+        Average Score: 83.83 (from 10 runs)
+        Average Traps Hit: 5.65
+    - Random Agent:
+        Average Score: -35.03 (from 10 runs)
+        Average Traps Hit: 50.24
+    - Agent Type B (Planner):
+        Average Score: 89.56 (from 10 runs)
+        Average Traps Hit: 4.02
+
+  Setup: All3_together_20
+    - Agent Type B (Planner):
+        Average Score: 0.03 (from 10 runs)
+        Average Traps Hit: 3.55
+    - Random Agent:
+        Average Score: -32.54 (from 10 runs)
+        Average Traps Hit: 48.14
+    - Agent Type A (Greedy):
+        Average Score: -131.70 (from 10 runs)
+        Average Traps Hit: 142.84
+
+  Setup: Greedy_alone_1
+    - Agent Type A (Greedy):
+        Average Score: 100.04 (from 10 runs)
+        Average Traps Hit: 4.91
+
+--------------------------------------------------
+

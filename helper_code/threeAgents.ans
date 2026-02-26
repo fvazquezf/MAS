@@ -1,0 +1,5964 @@
+Starting setup of simulator agent...
+0 0 0 0 0 0 
+1 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+Hello! PlannerAgent (Type B) player3 is ready.
+Hello! RandomAgent player1 is ready.
+Commitment set to: 20
+Hello! GreedyAgent (Type A) player2 is ready.
+player2 Commitment set to: 20
+player3 Commitment set to: 20
+Joined simulation! Starting at ({3},{1})
+player2 joined simulation! Starting at ({4},{0})
+player3 joined simulation! Starting at ({0},{2})
+sim: SIMULATION CAN START!!!
+
+sim: starting simulation round 0
+
+sim: Sending request to player1
+player1 moved to ({4},{1})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+1 0 [0;33m0[0m 0 1 2 
+0 0 0 0 0 0 
+[0;32m0[0m 0 0 0 0 0 
+0 [0;31m0[0m 0 1 2 2 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (4,1)
+Commitment: 19-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 [0;31m0[0m 0 1 2 2 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (3,0)
+Commitment: 19-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 0 0 1 2 
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,2)
+Commitment: 19-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 [0;31m0[0m 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+sim: starting simulation round 1
+
+sim: Sending request to player1
+player1 moved to ({4},{2})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+
+Simulator's agent status:
+0 0 0 0 0 0 
+1 [0;33m0[0m 0 0 1 2 
+[0;32m0[0m 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 [0;31m0[0m 1 2 2 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (4,2)
+Commitment: 18-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 [0;31m0[0m 1 2 2 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (2,0)
+Commitment: 18-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 0 0 1 2 
+[0;31m0[0m 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,1)
+Commitment: 18-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 [0;31m0[0m 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+sim: starting simulation round 2
+
+sim: Sending request to player1
+player1 moved to ({4},{3})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m [0;33m0[0m 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 1 0 [0;31m0[0m 2 2 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (4,3)
+Commitment: 17-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 [0;31m0[0m 2 2 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 17-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,1)
+Commitment: 17-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 [0;31m0[0m 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+sim: starting simulation round 3
+
+sim: Sending request to player1
+player1 moved to ({3},{3})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m [0;33m0[0m 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 [0;31m0[0m 0 0 
+1 1 0 0 2 2 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (3,3)
+Commitment: 16-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 [0;31m0[0m 0 0 
+0 0 0 0 2 2 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 16-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,1)
+Commitment: 16-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 [0;31m0[0m 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+sim: starting simulation round 4
+
+sim: Sending request to player1
+player1 moved to ({2},{3})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m [0;33m0[0m 0 0 1 2 
+0 0 0 [0;31m0[0m 0 0 
+0 0 0 0 0 0 
+1 1 0 0 2 2 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (2,3)
+Commitment: 15-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 0 0 1 2 
+0 0 0 [0;31m0[0m 0 0 
+0 0 0 0 0 0 
+0 0 0 0 2 2 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 15-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,1)
+Commitment: 15-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 [0;31m0[0m 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+sim: starting simulation round 5
+
+sim: Sending request to player1
+player1 moved to ({2},{4})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m [0;33m0[0m 0 0 1 2 
+0 0 0 0 [0;31m0[0m 0 
+0 0 0 0 0 0 
+1 1 0 0 2 2 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (2,4)
+Commitment: 14-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 0 0 1 2 
+0 0 0 0 [0;31m0[0m 0 
+0 0 0 0 0 0 
+0 0 0 0 2 2 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 14-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,1)
+Commitment: 14-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 [0;31m0[0m 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+sim: starting simulation round 6
+
+sim: Sending request to player1
+player1 moved to ({1},{4})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m [0;33m0[0m 0 0 [0;31m0[0m 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 1 0 0 2 2 
+0 0 0 1 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (1,4)
+Commitment: 13-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 0 0 [0;31m0[0m 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 2 2 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 13-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,1)
+Commitment: 13-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 [0;31m0[0m 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+sim: starting simulation round 7
+
+sim: Sending request to player1
+player1 moved to ({2},{4})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m [0;33m0[0m 0 0 0 2 
+0 0 0 0 [0;31m0[0m 0 
+0 0 0 0 0 0 
+1 1 0 0 2 2 
+0 0 0 1 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (2,4)
+Commitment: 12-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 0 0 0 2 
+0 0 0 0 [0;31m0[0m 0 
+0 0 0 0 0 0 
+0 0 0 0 2 2 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 12-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,1)
+Commitment: 12-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 [0;31m0[0m 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+sim: starting simulation round 8
+
+sim: Sending request to player1
+player1 moved to ({3},{4})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m [0;33m0[0m 0 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 [0;31m0[0m 0 
+1 1 0 0 2 2 
+0 0 0 1 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (3,4)
+Commitment: 11-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 0 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 [0;31m0[0m 0 
+0 0 0 0 2 2 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 11-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,1)
+Commitment: 11-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 [0;31m0[0m 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+sim: starting simulation round 9
+
+sim: Sending request to player1
+player1 moved to ({2},{4})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m [0;33m0[0m 0 0 0 2 
+0 0 0 0 [0;31m0[0m 0 
+0 0 0 0 0 0 
+1 1 0 0 2 2 
+0 0 0 1 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (2,4)
+Commitment: 10-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 0 0 0 2 
+0 0 0 0 [0;31m0[0m 0 
+0 0 0 0 0 0 
+0 0 0 0 2 2 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 10-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,1)
+Commitment: 10-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 [0;31m0[0m 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+MAP RESCHEDULING!!
+
+sim: starting simulation round 10
+
+sim: Sending request to player1
+player1 moved to ({2},{3})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 2 0 2 0 0 
+[0;32m0[0m [0;33m2[0m 0 1 0 0 
+1 0 0 [0;31m0[0m 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (2,3)
+Commitment: 9-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 0 0 0 2 
+0 0 0 [0;31m0[0m 0 0 
+0 0 0 0 0 0 
+0 0 0 0 2 2 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 9-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,1)
+Commitment: 9-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 [0;31m0[0m 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+sim: starting simulation round 11
+
+sim: Sending request to player1
+player1 moved to ({3},{3})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 2 0 2 0 0 
+[0;32m0[0m [0;33m2[0m 0 1 0 0 
+1 0 0 0 0 0 
+0 0 0 [0;31m0[0m 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (3,3)
+Commitment: 8-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 0 0 0 2 
+0 0 0 0 0 0 
+0 0 0 [0;31m0[0m 0 0 
+0 0 0 0 2 2 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 8-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,1)
+Commitment: 8-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 [0;31m0[0m 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+sim: starting simulation round 12
+
+sim: Sending request to player1
+player1 moved to ({3},{4})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 2 0 2 0 0 
+[0;32m0[0m [0;33m2[0m 0 1 0 0 
+1 0 0 0 0 0 
+0 0 0 0 [0;31m0[0m 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (3,4)
+Commitment: 7-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 0 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 [0;31m0[0m 0 
+0 0 0 0 2 2 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 7-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,1)
+Commitment: 7-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 [0;31m0[0m 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+sim: starting simulation round 13
+
+sim: Sending request to player1
+player1 moved to ({2},{4})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 2 0 2 0 0 
+[0;32m0[0m [0;33m2[0m 0 1 0 0 
+1 0 0 0 [0;31m0[0m 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (2,4)
+Commitment: 6-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 0 0 0 2 
+0 0 0 0 [0;31m0[0m 0 
+0 0 0 0 0 0 
+0 0 0 0 2 2 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 6-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,1)
+Commitment: 6-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 [0;31m0[0m 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+sim: starting simulation round 14
+
+sim: Sending request to player1
+player1 moved to ({3},{4})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 2 0 2 0 0 
+[0;32m0[0m [0;33m2[0m 0 1 0 0 
+1 0 0 0 0 0 
+0 0 0 0 [0;31m0[0m 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (3,4)
+Commitment: 5-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 0 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 [0;31m0[0m 0 
+0 0 0 0 2 2 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 5-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,1)
+Commitment: 5-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 [0;31m0[0m 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+sim: starting simulation round 15
+
+sim: Sending request to player1
+player1 moved to ({3},{5})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 2 0 2 0 0 
+[0;32m0[0m [0;33m2[0m 0 1 0 0 
+1 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (3,5)
+Commitment: 4-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 0 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 2 2 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 4-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,1)
+Commitment: 4-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 [0;31m0[0m 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+sim: starting simulation round 16
+
+sim: Sending request to player1
+player1 moved to ({4},{5})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 2 0 2 0 0 
+[0;32m0[0m [0;33m2[0m 0 1 0 0 
+1 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (4,5)
+Commitment: 3-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 0 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 2 [0;31m2[0m 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 3-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,1)
+Commitment: 3-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 [0;31m0[0m 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+sim: starting simulation round 17
+
+sim: Sending request to player1
+player1 moved to ({3},{5})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 2 0 2 0 0 
+[0;32m0[0m [0;33m2[0m 0 1 0 0 
+1 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (3,5)
+Commitment: 2-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 0 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 2 2 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 2-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,1)
+Commitment: 2-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 [0;31m0[0m 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+sim: starting simulation round 18
+
+sim: Sending request to player1
+player1 moved to ({2},{5})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 2 0 2 0 0 
+[0;32m0[0m [0;33m2[0m 0 1 0 0 
+1 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (2,5)
+Commitment: 1-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 0 0 0 0 2 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 2 2 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 1-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,1)
+Commitment: 1-20
+Score: 0
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+1 [0;31m0[0m 0 0 1 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 2 2 
+0 0 0 0 0 0 
+
+sim: starting simulation round 19
+
+sim: Sending request to player1
+player1 moved to ({2},{6})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 2 0 2 0 0 
+[0;32m0[0m [0;33m2[0m 0 1 0 0 
+1 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (2,5)
+Commitment: 20-20
+Score: 2
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+1 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 20-20
+Score: 1
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+[0;31m0[0m 2 0 1 0 0 
+1 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,1)
+Commitment: 20-20
+Score: 0
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 [0;31m2[0m 0 1 0 0 
+1 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+MAP RESCHEDULING!!
+
+sim: starting simulation round 20
+
+sim: Sending request to player1
+player1 moved to ({2},{6})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 2 1 0 
+0 2 0 0 0 0 
+[0;32m0[0m [0;33m0[0m 0 0 0 [0;31m0[0m 
+0 0 0 0 1 0 
+1 2 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (2,5)
+Commitment: 19-20
+Score: 2
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+1 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (2,0)
+Commitment: 19-20
+Score: 1
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (2,1)
+Commitment: 19-20
+Score: 0
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+1 [0;31m0[0m 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 21
+
+sim: Sending request to player1
+player1 moved to ({1},{5})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+
+Simulator's agent status:
+0 0 0 2 1 0 
+[0;32m0[0m 2 0 0 0 [0;31m0[0m 
+[0;33m0[0m 0 0 0 0 0 
+0 0 0 0 1 0 
+1 2 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (1,5)
+Commitment: 18-20
+Score: 2
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 [0;31m0[0m 
+1 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 18-20
+Score: 1
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+[0;31m0[0m 2 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (2,0)
+Commitment: 18-20
+Score: 0
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 22
+
+sim: Sending request to player1
+player1 moved to ({2},{5})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+[0;32m0[0m 0 0 2 1 0 
+0 2 0 0 0 0 
+0 [0;33m0[0m 0 0 0 [0;31m0[0m 
+0 0 0 0 1 0 
+1 2 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (2,5)
+Commitment: 17-20
+Score: 2
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+1 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (0,0)
+Commitment: 17-20
+Score: 1
+NumTraps: 0
+Map:
+[0;31m0[0m 2 0 2 0 0 
+0 2 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (2,1)
+Commitment: 17-20
+Score: 0
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+0 [0;31m0[0m 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 23
+
+sim: Sending request to player1
+player1 moved to ({2},{6})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+
+Simulator's agent status:
+0 0 0 2 1 0 
+[0;32m0[0m 2 0 0 0 0 
+0 0 [0;33m0[0m 0 0 [0;31m0[0m 
+0 0 0 0 1 0 
+1 2 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (2,5)
+Commitment: 16-20
+Score: 2
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+1 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 16-20
+Score: 1
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+[0;31m0[0m 2 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (2,2)
+Commitment: 16-20
+Score: 0
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+0 0 [0;31m0[0m 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 24
+
+sim: Sending request to player1
+player1 moved to ({1},{5})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+
+Simulator's agent status:
+[0;32m0[0m 0 0 2 1 0 
+0 2 [0;33m0[0m 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 1 0 
+1 2 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (1,5)
+Commitment: 15-20
+Score: 2
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 [0;31m0[0m 
+1 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (0,0)
+Commitment: 15-20
+Score: 1
+NumTraps: 0
+Map:
+[0;31m0[0m 2 0 2 0 0 
+0 2 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,2)
+Commitment: 15-20
+Score: 0
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 [0;31m0[0m 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 25
+
+sim: Sending request to player1
+player1 moved to ({2},{5})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+
+Simulator's agent status:
+0 0 0 2 1 0 
+[0;32m0[0m 2 0 [0;33m0[0m 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 1 0 
+1 2 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (2,5)
+Commitment: 14-20
+Score: 2
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+1 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 14-20
+Score: 1
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+[0;31m0[0m 2 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,3)
+Commitment: 14-20
+Score: 0
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 [0;31m0[0m 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 26
+
+sim: Sending request to player1
+player1 moved to ({2},{6})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+[0;32m0[0m 0 0 2 1 0 
+0 2 [0;33m0[0m 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 1 0 
+1 2 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (2,5)
+Commitment: 13-20
+Score: 2
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+1 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (0,0)
+Commitment: 13-20
+Score: 1
+NumTraps: 0
+Map:
+[0;31m0[0m 2 0 2 0 0 
+0 2 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (1,2)
+Commitment: 13-20
+Score: 0
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 [0;31m0[0m 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 27
+
+sim: Sending request to player1
+player1 moved to ({3},{5})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 2 1 0 
+[0;32m0[0m 2 0 0 0 0 
+0 0 [0;33m0[0m 0 0 0 
+0 0 0 0 1 [0;31m0[0m 
+1 2 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (3,5)
+Commitment: 12-20
+Score: 2
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+1 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 12-20
+Score: 1
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+[0;31m0[0m 2 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (2,2)
+Commitment: 12-20
+Score: 0
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 0 0 0 
+0 0 [0;31m0[0m 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 28
+
+sim: Sending request to player1
+player1 moved to ({4},{5})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+[0;32m0[0m 0 0 2 1 0 
+0 2 0 0 0 0 
+0 0 0 0 0 0 
+0 0 [0;33m0[0m 0 1 0 
+1 2 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (4,5)
+Commitment: 11-20
+Score: 2
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+1 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (0,0)
+Commitment: 11-20
+Score: 1
+NumTraps: 0
+Map:
+[0;31m0[0m 2 0 2 0 0 
+0 2 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (3,2)
+Commitment: 11-20
+Score: 0
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 0 0 0 
+0 0 0 0 0 0 
+0 0 [0;31m0[0m 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 29
+
+sim: Sending request to player1
+player1 moved to ({3},{5})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 2 1 0 
+[0;32m0[0m 2 0 0 0 0 
+0 0 [0;33m0[0m 0 0 0 
+0 0 0 0 1 [0;31m0[0m 
+1 2 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (3,5)
+Commitment: 10-20
+Score: 2
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+1 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 10-20
+Score: 1
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+[0;31m0[0m 2 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (2,2)
+Commitment: 10-20
+Score: 0
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 0 0 0 
+0 0 [0;31m0[0m 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+MAP RESCHEDULING!!
+
+sim: starting simulation round 30
+
+sim: Sending request to player1
+player1 moved to ({3},{6})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+[0;32m0[0m 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 [0;33m0[0m 0 2 [0;31m0[0m 
+1 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (3,5)
+Commitment: 9-20
+Score: 2
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+1 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (0,0)
+Commitment: 9-20
+Score: 1
+NumTraps: 0
+Map:
+[0;31m0[0m 2 0 2 0 0 
+0 2 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (3,2)
+Commitment: 9-20
+Score: 0
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 0 0 0 
+0 0 0 0 0 0 
+0 0 [0;31m0[0m 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 31
+
+sim: Sending request to player1
+player1 moved to ({4},{5})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 [0;33m0[0m 2 0 
+1 2 0 0 1 [0;31m0[0m 
+0 0 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (4,5)
+Commitment: 8-20
+Score: 2
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+1 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 8-20
+Score: 1
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+[0;31m0[0m 2 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (3,3)
+Commitment: 8-20
+Score: 0
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 [0;31m0[0m 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 32
+
+sim: Sending request to player1
+player1 moved to ({3},{5})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+[0;32m0[0m 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 [0;33m0[0m 0 2 [0;31m0[0m 
+1 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (3,5)
+Commitment: 7-20
+Score: 2
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+1 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (0,0)
+Commitment: 7-20
+Score: 1
+NumTraps: 0
+Map:
+[0;31m0[0m 2 0 2 0 0 
+0 2 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (3,2)
+Commitment: 7-20
+Score: 0
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 0 0 0 
+0 0 0 0 0 0 
+0 0 [0;31m0[0m 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 33
+
+sim: Sending request to player1
+player1 moved to ({2},{5})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m 0 0 0 0 1 
+0 0 0 0 0 [0;31m0[0m 
+0 [0;33m0[0m 0 0 2 0 
+1 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (2,5)
+Commitment: 6-20
+Score: 2
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+1 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 6-20
+Score: 1
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+[0;31m0[0m 2 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (3,1)
+Commitment: 6-20
+Score: 0
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 0 0 0 
+0 0 0 0 0 0 
+0 [0;31m0[0m 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 34
+
+sim: Sending request to player1
+player1 moved to ({3},{5})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+[0;32m0[0m 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 [0;33m0[0m 0 0 2 [0;31m0[0m 
+1 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (3,5)
+Commitment: 5-20
+Score: 2
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+1 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (0,0)
+Commitment: 5-20
+Score: 1
+NumTraps: 0
+Map:
+[0;31m0[0m 2 0 2 0 0 
+0 2 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (3,1)
+Commitment: 5-20
+Score: -1
+NumTraps: 1
+Map:
+0 2 0 2 0 0 
+0 2 0 0 0 0 
+0 0 0 0 0 0 
+0 [0;31m0[0m 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 35
+
+sim: Sending request to player1
+player1 moved to ({3},{6})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 [0;33m0[0m 0 2 [0;31m0[0m 
+1 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (3,5)
+Commitment: 4-20
+Score: 2
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+1 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 4-20
+Score: 1
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+[0;31m0[0m 2 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (3,2)
+Commitment: 4-20
+Score: -1
+NumTraps: 1
+Map:
+0 2 0 2 0 0 
+0 2 0 0 0 0 
+0 0 0 0 0 0 
+0 0 [0;31m0[0m 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 36
+
+sim: Sending request to player1
+player1 moved to ({3},{4})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+[0;32m0[0m 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 [0;31m0[0m 
+1 2 [0;33m0[0m 0 1 0 
+0 0 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (3,5)
+Commitment: 3-20
+Score: 1
+NumTraps: 1
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+1 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (0,0)
+Commitment: 3-20
+Score: 1
+NumTraps: 0
+Map:
+[0;31m0[0m 2 0 2 0 0 
+0 2 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (4,2)
+Commitment: 3-20
+Score: -1
+NumTraps: 1
+Map:
+0 2 0 2 0 0 
+0 2 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 [0;31m0[0m 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 37
+
+sim: Sending request to player1
+player1 moved to ({3},{6})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 [0;31m0[0m 
+1 2 [0;33m0[0m 0 1 0 
+0 0 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (3,5)
+Commitment: 2-20
+Score: 1
+NumTraps: 1
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+1 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 2-20
+Score: 1
+NumTraps: 0
+Map:
+0 2 0 2 0 0 
+[0;31m0[0m 2 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (4,2)
+Commitment: 2-20
+Score: -2
+NumTraps: 2
+Map:
+0 2 0 2 0 0 
+0 2 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 [0;31m0[0m 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 38
+
+sim: Sending request to player1
+player1 moved to ({3},{6})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+[0;32m0[0m 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 [0;31m0[0m 
+1 2 [0;33m0[0m 0 1 0 
+0 0 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (3,5)
+Commitment: 1-20
+Score: 1
+NumTraps: 1
+Map:
+0 2 0 2 0 0 
+0 2 0 1 0 0 
+1 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player2
+Position: (0,0)
+Commitment: 1-20
+Score: 1
+NumTraps: 0
+Map:
+[0;31m0[0m 2 0 2 0 0 
+0 2 0 1 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Name: player3
+Position: (4,2)
+Commitment: 1-20
+Score: -3
+NumTraps: 3
+Map:
+0 2 0 2 0 0 
+0 2 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 [0;31m0[0m 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 39
+
+sim: Sending request to player1
+player1 moved to ({3},{4})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 [0;31m0[0m 
+1 2 [0;33m0[0m 0 1 0 
+0 0 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (3,5)
+Commitment: 20-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 [0;31m0[0m 
+1 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player2
+Position: (1,0)
+Commitment: 20-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player3
+Position: (4,2)
+Commitment: 20-20
+Score: -4
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 [0;31m0[0m 0 1 0 
+0 0 0 0 0 2 
+MAP RESCHEDULING!!
+
+sim: starting simulation round 40
+
+sim: Sending request to player1
+player1 moved to ({4},{5})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 2 1 0 0 
+0 0 0 0 0 0 
+[0;32m0[0m 1 0 0 0 0 
+1 0 0 2 0 0 
+0 0 0 [0;33m0[0m 0 [0;31m0[0m 
+0 0 0 2 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (4,5)
+Commitment: 19-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 1 [0;31m0[0m 
+0 0 0 0 0 2 
+
+Name: player2
+Position: (2,0)
+Commitment: 19-20
+Score: 1
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+[0;31m0[0m 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player3
+Position: (4,3)
+Commitment: 19-20
+Score: -4
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 [0;31m0[0m 1 0 
+0 0 0 0 0 2 
+
+sim: starting simulation round 41
+
+sim: Sending request to player1
+player1 moved to ({3},{5})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+
+Simulator's agent status:
+0 0 2 1 0 0 
+0 0 0 0 0 1 
+0 1 0 0 0 0 
+[0;32m0[0m 0 0 2 0 [0;31m0[0m 
+0 0 0 0 [0;33m0[0m 0 
+0 0 0 2 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (3,5)
+Commitment: 18-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 [0;31m0[0m 
+1 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player2
+Position: (3,0)
+Commitment: 18-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 2 0 
+1 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player3
+Position: (4,4)
+Commitment: 18-20
+Score: -4
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 [0;31m0[0m 0 
+0 0 0 0 0 2 
+
+sim: starting simulation round 42
+
+sim: Sending request to player1
+player1 moved to ({4},{5})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 2 1 0 0 
+0 0 0 0 0 1 
+0 1 0 0 0 0 
+0 0 0 2 0 0 
+[0;32m0[0m 0 0 0 [0;33m0[0m [0;31m0[0m 
+0 0 0 2 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (4,5)
+Commitment: 17-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 1 [0;31m0[0m 
+0 0 0 0 0 2 
+
+Name: player2
+Position: (4,0)
+Commitment: 17-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+[0;31m0[0m 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player3
+Position: (4,4)
+Commitment: 17-20
+Score: -4
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 [0;31m0[0m 0 
+0 0 0 0 0 2 
+
+sim: starting simulation round 43
+
+sim: Sending request to player1
+player1 moved to ({4},{6})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 2 1 0 0 
+0 0 0 0 0 1 
+0 1 0 0 0 0 
+[0;32m0[0m 0 0 2 0 0 
+0 0 0 0 [0;33m0[0m [0;31m0[0m 
+0 0 0 2 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (4,5)
+Commitment: 16-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 1 [0;31m0[0m 
+0 0 0 0 0 2 
+
+Name: player2
+Position: (3,0)
+Commitment: 16-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 2 0 
+0 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player3
+Position: (4,4)
+Commitment: 16-20
+Score: -4
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 [0;31m0[0m 0 
+0 0 0 0 0 2 
+
+sim: starting simulation round 44
+
+sim: Sending request to player1
+player1 moved to ({4},{4})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 2 1 0 0 
+0 0 0 0 0 1 
+0 1 0 0 0 0 
+0 0 0 2 0 0 
+[0;32m0[0m 0 0 0 [0;33m0[0m [0;31m0[0m 
+0 0 0 2 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (4,5)
+Commitment: 15-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 1 [0;31m0[0m 
+0 0 0 0 0 2 
+
+Name: player2
+Position: (4,0)
+Commitment: 15-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+[0;31m0[0m 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player3
+Position: (4,4)
+Commitment: 15-20
+Score: -4
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 [0;31m0[0m 0 
+0 0 0 0 0 2 
+
+sim: starting simulation round 45
+
+sim: Sending request to player1
+player1 moved to ({4},{4})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 2 1 0 0 
+0 0 0 0 0 1 
+0 1 0 0 0 0 
+[0;32m0[0m 0 0 2 0 0 
+0 0 0 0 [0;33m0[0m [0;31m0[0m 
+0 0 0 2 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (4,5)
+Commitment: 14-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 1 [0;31m0[0m 
+0 0 0 0 0 2 
+
+Name: player2
+Position: (3,0)
+Commitment: 14-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 2 0 
+0 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player3
+Position: (4,4)
+Commitment: 14-20
+Score: -4
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 [0;31m0[0m 0 
+0 0 0 0 0 2 
+
+sim: starting simulation round 46
+
+sim: Sending request to player1
+player1 moved to ({5},{5})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 2 1 0 0 
+0 0 0 0 0 1 
+0 1 0 0 0 0 
+0 0 0 2 0 0 
+[0;32m0[0m 0 0 0 0 [0;33m0[0m 
+0 0 0 2 0 [0;31m0[0m 
+
+Participant's status:
+
+Name: player1
+Position: (5,5)
+Commitment: 13-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 1 0 
+0 0 0 0 0 [0;31m2[0m 
+
+Name: player2
+Position: (4,0)
+Commitment: 13-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+[0;31m0[0m 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player3
+Position: (4,5)
+Commitment: 13-20
+Score: -4
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 0 [0;31m0[0m 
+0 0 0 0 0 2 
+
+sim: starting simulation round 47
+
+sim: Sending request to player1
+player1 moved to ({5},{4})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+
+Simulator's agent status:
+0 0 2 1 0 0 
+0 0 0 0 0 1 
+0 1 0 0 0 0 
+[0;32m0[0m 0 0 2 0 [0;33m0[0m 
+0 0 0 0 0 0 
+0 0 0 2 [0;31m0[0m 0 
+
+Participant's status:
+
+Name: player1
+Position: (5,4)
+Commitment: 12-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 1 0 
+0 0 0 0 [0;31m0[0m 2 
+
+Name: player2
+Position: (3,0)
+Commitment: 12-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 2 0 
+0 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player3
+Position: (3,5)
+Commitment: 12-20
+Score: -4
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 [0;31m0[0m 
+1 2 0 0 0 0 
+0 0 0 0 0 2 
+
+sim: starting simulation round 48
+
+sim: Sending request to player1
+player1 moved to ({6},{4})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+
+Simulator's agent status:
+0 0 2 1 0 0 
+0 0 0 0 0 1 
+0 1 0 0 0 [0;33m0[0m 
+0 0 0 2 0 0 
+[0;32m0[0m 0 0 0 0 0 
+0 0 0 2 [0;31m0[0m 0 
+
+Participant's status:
+
+Name: player1
+Position: (5,4)
+Commitment: 11-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 1 0 
+0 0 0 0 [0;31m0[0m 2 
+
+Name: player2
+Position: (4,0)
+Commitment: 11-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+[0;31m0[0m 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player3
+Position: (2,5)
+Commitment: 11-20
+Score: -4
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 2 0 
+1 2 0 0 0 0 
+0 0 0 0 0 2 
+
+sim: starting simulation round 49
+
+sim: Sending request to player1
+player1 moved to ({5},{5})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+
+Simulator's agent status:
+0 0 2 1 0 0 
+0 0 0 0 0 [0;33m0[0m 
+0 1 0 0 0 0 
+[0;32m0[0m 0 0 2 0 0 
+0 0 0 1 0 0 
+0 0 0 2 0 [0;31m0[0m 
+
+Participant's status:
+
+Name: player1
+Position: (5,5)
+Commitment: 10-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 1 0 
+0 0 0 0 0 [0;31m2[0m 
+
+Name: player2
+Position: (3,0)
+Commitment: 10-20
+Score: 2
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 2 0 
+0 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player3
+Position: (1,5)
+Commitment: 10-20
+Score: -3
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 0 0 
+0 0 0 0 0 2 
+MAP RESCHEDULING!!
+
+sim: starting simulation round 50
+
+sim: Sending request to player1
+player1 moved to ({5},{4})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 2 0 0 0 
+0 0 0 0 0 [0;33m0[0m 
+1 2 1 0 0 2 
+0 0 0 0 0 0 
+[0;32m0[0m 0 0 0 0 0 
+0 1 0 0 [0;31m0[0m 0 
+
+Participant's status:
+
+Name: player1
+Position: (5,4)
+Commitment: 9-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 1 0 
+0 0 0 0 [0;31m0[0m 2 
+
+Name: player2
+Position: (4,0)
+Commitment: 9-20
+Score: 3
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+[0;31m0[0m 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player3
+Position: (1,5)
+Commitment: 9-20
+Score: -4
+NumTraps: 5
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 0 0 
+0 0 0 0 0 2 
+
+sim: starting simulation round 51
+
+sim: Sending request to player1
+player1 moved to ({5},{3})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 2 0 0 0 
+0 0 0 0 0 [0;33m0[0m 
+1 2 1 0 0 2 
+[0;32m0[0m 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 [0;31m0[0m 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (5,3)
+Commitment: 8-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 1 0 
+0 0 0 [0;31m0[0m 0 2 
+
+Name: player2
+Position: (3,0)
+Commitment: 8-20
+Score: 3
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 2 0 
+0 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player3
+Position: (1,5)
+Commitment: 8-20
+Score: -5
+NumTraps: 6
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 0 0 
+0 0 0 0 0 2 
+
+sim: starting simulation round 52
+
+sim: Sending request to player1
+player1 moved to ({6},{3})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 2 0 0 0 
+0 0 0 0 0 [0;33m0[0m 
+1 2 1 0 0 2 
+0 0 0 0 0 0 
+[0;32m0[0m 0 0 0 0 0 
+0 1 0 [0;31m0[0m 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (5,3)
+Commitment: 7-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 1 0 
+0 0 0 [0;31m0[0m 0 2 
+
+Name: player2
+Position: (4,0)
+Commitment: 7-20
+Score: 3
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+[0;31m0[0m 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player3
+Position: (1,5)
+Commitment: 7-20
+Score: -6
+NumTraps: 7
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 0 0 
+0 0 0 0 0 2 
+
+sim: starting simulation round 53
+
+sim: Sending request to player1
+player1 moved to ({6},{3})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 2 0 0 0 
+0 0 0 0 0 [0;33m0[0m 
+1 2 1 0 0 2 
+[0;32m0[0m 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 [0;31m0[0m 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (5,3)
+Commitment: 6-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 1 0 
+0 0 0 [0;31m0[0m 0 2 
+
+Name: player2
+Position: (3,0)
+Commitment: 6-20
+Score: 3
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 2 0 
+0 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player3
+Position: (1,5)
+Commitment: 6-20
+Score: -7
+NumTraps: 8
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 0 0 
+0 0 0 0 0 2 
+
+sim: starting simulation round 54
+
+sim: Sending request to player1
+player1 moved to ({4},{3})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 2 0 0 0 
+0 0 0 0 0 [0;33m0[0m 
+1 2 1 0 0 2 
+0 0 0 0 0 0 
+[0;32m0[0m 0 0 [0;31m0[0m 0 0 
+0 1 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (4,3)
+Commitment: 5-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 [0;31m0[0m 1 0 
+0 0 0 0 0 2 
+
+Name: player2
+Position: (4,0)
+Commitment: 5-20
+Score: 3
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+[0;31m0[0m 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player3
+Position: (1,5)
+Commitment: 5-20
+Score: -8
+NumTraps: 9
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 0 0 
+0 0 0 0 0 2 
+
+sim: starting simulation round 55
+
+sim: Sending request to player1
+player1 moved to ({5},{3})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 2 0 0 0 
+0 0 0 0 0 [0;33m0[0m 
+1 2 1 0 0 2 
+[0;32m0[0m 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 [0;31m0[0m 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (5,3)
+Commitment: 4-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 1 0 
+0 0 0 [0;31m0[0m 0 2 
+
+Name: player2
+Position: (3,0)
+Commitment: 4-20
+Score: 3
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 2 0 
+0 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player3
+Position: (1,5)
+Commitment: 4-20
+Score: -9
+NumTraps: 10
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 0 0 
+0 0 0 0 0 2 
+
+sim: starting simulation round 56
+
+sim: Sending request to player1
+player1 moved to ({6},{3})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 2 0 0 0 
+0 0 0 0 0 [0;33m0[0m 
+1 2 1 0 0 2 
+0 0 0 0 0 0 
+[0;32m0[0m 0 0 0 0 0 
+0 1 0 [0;31m0[0m 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (5,3)
+Commitment: 3-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 1 0 
+0 0 0 [0;31m0[0m 0 2 
+
+Name: player2
+Position: (4,0)
+Commitment: 3-20
+Score: 3
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+[0;31m0[0m 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player3
+Position: (1,5)
+Commitment: 3-20
+Score: -10
+NumTraps: 11
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 0 0 
+0 0 0 0 0 2 
+
+sim: starting simulation round 57
+
+sim: Sending request to player1
+player1 moved to ({6},{3})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 2 0 0 0 
+0 0 0 0 0 [0;33m0[0m 
+1 2 1 0 0 2 
+[0;32m0[0m 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 [0;31m0[0m 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (5,3)
+Commitment: 2-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 1 0 
+0 0 0 [0;31m0[0m 0 2 
+
+Name: player2
+Position: (3,0)
+Commitment: 2-20
+Score: 3
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 2 0 
+0 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player3
+Position: (1,5)
+Commitment: 2-20
+Score: -11
+NumTraps: 12
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 0 0 
+0 0 0 0 0 2 
+
+sim: starting simulation round 58
+
+sim: Sending request to player1
+player1 moved to ({4},{3})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 2 0 0 0 
+0 0 0 0 0 [0;33m0[0m 
+1 2 1 0 0 2 
+0 0 0 0 0 0 
+[0;32m0[0m 0 0 [0;31m0[0m 0 0 
+0 1 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (4,3)
+Commitment: 1-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 [0;31m0[0m 1 0 
+0 0 0 0 0 2 
+
+Name: player2
+Position: (4,0)
+Commitment: 1-20
+Score: 3
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+[0;31m0[0m 2 0 0 1 0 
+0 0 0 0 0 2 
+
+Name: player3
+Position: (1,5)
+Commitment: 1-20
+Score: -12
+NumTraps: 13
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 2 0 0 0 0 
+0 0 0 0 0 2 
+
+sim: starting simulation round 59
+
+sim: Sending request to player1
+player1 moved to ({4},{4})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 2 0 0 0 
+0 0 0 0 0 [0;33m0[0m 
+1 2 1 0 0 2 
+[0;32m0[0m 0 0 0 0 0 
+0 0 0 0 [0;31m0[0m 0 
+0 1 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (4,4)
+Commitment: 20-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 [0;31m0[0m 0 
+0 1 0 0 0 0 
+
+Name: player2
+Position: (3,0)
+Commitment: 20-20
+Score: 3
+NumTraps: 0
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 0 2 
+[0;31m0[0m 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player3
+Position: (1,5)
+Commitment: 20-20
+Score: -13
+NumTraps: 14
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 [0;31m0[0m 
+1 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+MAP RESCHEDULING!!
+
+sim: starting simulation round 60
+
+sim: Sending request to player1
+player1 moved to ({4},{3})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 2 0 0 0 0 
+1 0 1 0 [0;33m0[0m 0 
+[0;32m0[0m 0 0 2 1 0 
+2 0 0 0 0 0 
+0 0 0 [0;31m0[0m 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (4,3)
+Commitment: 19-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 [0;31m0[0m 0 0 
+0 1 0 0 0 0 
+
+Name: player2
+Position: (2,0)
+Commitment: 19-20
+Score: 4
+NumTraps: 0
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+[0;31m0[0m 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player3
+Position: (1,4)
+Commitment: 19-20
+Score: -13
+NumTraps: 14
+Map:
+0 0 2 0 0 0 
+0 0 0 0 [0;31m0[0m 0 
+1 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+sim: starting simulation round 61
+
+sim: Sending request to player1
+player1 moved to ({3},{3})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+
+Simulator's agent status:
+0 2 0 0 0 1 
+[0;32m0[0m 1 1 0 0 0 
+0 0 0 2 [0;33m0[0m 0 
+2 0 0 [0;31m0[0m 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (3,3)
+Commitment: 18-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 0 2 
+0 0 0 [0;31m0[0m 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 18-20
+Score: 5
+NumTraps: 0
+Map:
+0 0 2 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player3
+Position: (2,4)
+Commitment: 18-20
+Score: -12
+NumTraps: 14
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 [0;31m0[0m 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+sim: starting simulation round 62
+
+sim: Sending request to player1
+player1 moved to ({4},{3})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+
+Simulator's agent status:
+0 2 0 0 0 1 
+0 1 1 0 0 0 
+[0;32m0[0m 0 0 2 [0;33m0[0m 0 
+2 0 0 0 0 0 
+0 0 0 [0;31m0[0m 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (4,3)
+Commitment: 17-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 [0;31m0[0m 0 0 
+0 1 0 0 0 0 
+
+Name: player2
+Position: (2,0)
+Commitment: 17-20
+Score: 5
+NumTraps: 0
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+[0;31m0[0m 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player3
+Position: (2,4)
+Commitment: 17-20
+Score: -13
+NumTraps: 15
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 [0;31m0[0m 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+sim: starting simulation round 63
+
+sim: Sending request to player1
+player1 moved to ({4},{4})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 2 0 0 0 1 
+[0;32m0[0m 1 1 0 0 0 
+0 0 0 2 [0;33m0[0m 0 
+2 0 0 0 0 0 
+0 0 0 0 [0;31m0[0m 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (4,4)
+Commitment: 16-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 [0;31m0[0m 0 
+0 1 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 16-20
+Score: 5
+NumTraps: 0
+Map:
+0 0 2 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player3
+Position: (2,4)
+Commitment: 16-20
+Score: -14
+NumTraps: 16
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 [0;31m0[0m 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+sim: starting simulation round 64
+
+sim: Sending request to player1
+player1 moved to ({3},{4})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 2 0 0 0 1 
+0 1 1 0 0 0 
+[0;32m0[0m 0 0 2 [0;33m0[0m 0 
+2 0 0 0 [0;31m0[0m 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (3,4)
+Commitment: 15-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 0 2 
+0 0 0 0 [0;31m0[0m 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player2
+Position: (2,0)
+Commitment: 15-20
+Score: 5
+NumTraps: 0
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+[0;31m0[0m 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player3
+Position: (2,4)
+Commitment: 15-20
+Score: -15
+NumTraps: 17
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 [0;31m0[0m 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+sim: starting simulation round 65
+
+sim: Sending request to player1
+player1 moved to ({3},{3})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 2 0 0 0 1 
+[0;32m0[0m 1 1 0 0 0 
+0 0 0 2 [0;33m0[0m 0 
+2 0 0 [0;31m0[0m 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (3,3)
+Commitment: 14-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 0 2 
+0 0 0 [0;31m0[0m 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 14-20
+Score: 5
+NumTraps: 0
+Map:
+0 0 2 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player3
+Position: (2,4)
+Commitment: 14-20
+Score: -16
+NumTraps: 18
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 [0;31m0[0m 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+sim: starting simulation round 66
+
+sim: Sending request to player1
+player1 moved to ({3},{2})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 2 0 0 0 1 
+0 1 1 0 0 0 
+[0;32m0[0m 0 0 2 [0;33m0[0m 0 
+2 0 [0;31m0[0m 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (3,2)
+Commitment: 13-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 0 2 
+0 0 [0;31m0[0m 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player2
+Position: (2,0)
+Commitment: 13-20
+Score: 5
+NumTraps: 0
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+[0;31m0[0m 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player3
+Position: (2,4)
+Commitment: 13-20
+Score: -17
+NumTraps: 19
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 [0;31m0[0m 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+sim: starting simulation round 67
+
+sim: Sending request to player1
+player1 moved to ({3},{1})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 2 0 0 0 1 
+[0;32m0[0m 1 1 0 0 0 
+0 0 0 2 [0;33m0[0m 0 
+2 [0;31m0[0m 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (3,1)
+Commitment: 12-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 0 2 
+0 [0;31m0[0m 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 12-20
+Score: 5
+NumTraps: 0
+Map:
+0 0 2 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player3
+Position: (2,4)
+Commitment: 12-20
+Score: -18
+NumTraps: 20
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 [0;31m0[0m 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+sim: starting simulation round 68
+
+sim: Sending request to player1
+player1 moved to ({4},{1})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 2 0 0 0 1 
+0 1 1 0 0 0 
+[0;32m0[0m 0 0 2 [0;33m0[0m 0 
+2 0 0 0 0 0 
+0 [0;31m0[0m 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (4,1)
+Commitment: 11-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 0 2 
+0 0 0 0 0 0 
+0 [0;31m0[0m 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player2
+Position: (2,0)
+Commitment: 11-20
+Score: 5
+NumTraps: 0
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+[0;31m0[0m 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player3
+Position: (2,4)
+Commitment: 11-20
+Score: -19
+NumTraps: 21
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 [0;31m0[0m 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+sim: starting simulation round 69
+
+sim: Sending request to player1
+player1 moved to ({3},{1})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 2 0 0 0 1 
+[0;32m0[0m 1 1 0 0 0 
+0 0 0 2 [0;33m0[0m 0 
+2 [0;31m0[0m 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (3,1)
+Commitment: 10-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 0 2 
+0 [0;31m0[0m 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 10-20
+Score: 5
+NumTraps: 0
+Map:
+0 0 2 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player3
+Position: (2,4)
+Commitment: 10-20
+Score: -20
+NumTraps: 22
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 [0;31m0[0m 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+MAP RESCHEDULING!!
+
+sim: starting simulation round 70
+
+sim: Sending request to player1
+player1 moved to ({3},{0})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+[0;32m0[0m 0 2 [0;33m0[0m 0 0 
+[0;31m0[0m 0 0 0 0 2 
+0 1 2 0 1 0 
+0 0 0 0 1 0 
+
+Participant's status:
+
+Name: player1
+Position: (3,0)
+Commitment: 9-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 0 2 
+[0;31m0[0m 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player2
+Position: (2,0)
+Commitment: 9-20
+Score: 5
+NumTraps: 0
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+[0;31m0[0m 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player3
+Position: (2,3)
+Commitment: 9-20
+Score: -20
+NumTraps: 22
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 [0;31m0[0m 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+sim: starting simulation round 71
+
+sim: Sending request to player1
+player1 moved to ({3},{1})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m 0 0 0 0 0 
+0 0 2 [0;33m0[0m 0 0 
+0 [0;31m0[0m 0 0 0 2 
+0 1 2 0 1 0 
+0 0 0 0 1 0 
+
+Participant's status:
+
+Name: player1
+Position: (3,1)
+Commitment: 8-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 0 2 
+0 [0;31m0[0m 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 8-20
+Score: 5
+NumTraps: 0
+Map:
+0 0 2 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player3
+Position: (2,3)
+Commitment: 8-20
+Score: -21
+NumTraps: 23
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 [0;31m0[0m 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+sim: starting simulation round 72
+
+sim: Sending request to player1
+player1 moved to ({2},{1})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+[0;32m0[0m [0;31m0[0m 2 [0;33m0[0m 0 0 
+0 0 0 0 0 2 
+0 1 2 0 1 0 
+0 0 0 0 1 0 
+
+Participant's status:
+
+Name: player1
+Position: (2,1)
+Commitment: 7-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 [0;31m2[0m 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player2
+Position: (2,0)
+Commitment: 7-20
+Score: 5
+NumTraps: 0
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+[0;31m0[0m 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player3
+Position: (2,3)
+Commitment: 7-20
+Score: -22
+NumTraps: 24
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 [0;31m0[0m 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+sim: starting simulation round 73
+
+sim: Sending request to player1
+player1 moved to ({2},{0})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m 0 0 0 0 0 
+0 [0;31m0[0m 2 [0;33m0[0m 0 0 
+0 0 0 0 0 2 
+0 1 2 0 1 0 
+0 0 0 0 1 0 
+
+Participant's status:
+
+Name: player1
+Position: (2,1)
+Commitment: 6-20
+Score: 0
+NumTraps: 2
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 [0;31m2[0m 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 6-20
+Score: 5
+NumTraps: 0
+Map:
+0 0 2 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player3
+Position: (2,3)
+Commitment: 6-20
+Score: -23
+NumTraps: 25
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 [0;31m0[0m 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+sim: starting simulation round 74
+
+sim: Sending request to player1
+player1 moved to ({2},{2})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+[0;32m0[0m [0;31m0[0m 2 [0;33m0[0m 0 0 
+0 0 0 0 0 2 
+0 1 2 0 1 0 
+0 0 0 0 1 0 
+
+Participant's status:
+
+Name: player1
+Position: (2,1)
+Commitment: 5-20
+Score: -1
+NumTraps: 3
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 [0;31m2[0m 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player2
+Position: (2,0)
+Commitment: 5-20
+Score: 5
+NumTraps: 0
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+[0;31m0[0m 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player3
+Position: (2,3)
+Commitment: 5-20
+Score: -24
+NumTraps: 26
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 [0;31m0[0m 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+sim: starting simulation round 75
+
+sim: Sending request to player1
+player1 moved to ({1},{1})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m [0;31m0[0m 0 0 0 0 
+0 0 2 [0;33m0[0m 0 0 
+0 0 0 0 0 2 
+0 1 2 0 1 0 
+0 0 0 0 1 0 
+
+Participant's status:
+
+Name: player1
+Position: (1,1)
+Commitment: 4-20
+Score: -1
+NumTraps: 3
+Map:
+0 0 2 0 0 0 
+0 [0;31m0[0m 0 0 0 0 
+1 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 4-20
+Score: 5
+NumTraps: 0
+Map:
+0 0 2 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player3
+Position: (2,3)
+Commitment: 4-20
+Score: -25
+NumTraps: 27
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 [0;31m0[0m 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+sim: starting simulation round 76
+
+sim: Sending request to player1
+player1 moved to ({2},{1})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+[0;32m0[0m [0;31m0[0m 2 [0;33m0[0m 0 0 
+0 0 0 0 0 2 
+0 1 2 0 1 0 
+0 0 0 0 1 0 
+
+Participant's status:
+
+Name: player1
+Position: (2,1)
+Commitment: 3-20
+Score: -1
+NumTraps: 3
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 [0;31m2[0m 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player2
+Position: (2,0)
+Commitment: 3-20
+Score: 5
+NumTraps: 0
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+[0;31m0[0m 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player3
+Position: (2,3)
+Commitment: 3-20
+Score: -26
+NumTraps: 28
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 [0;31m0[0m 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+sim: starting simulation round 77
+
+sim: Sending request to player1
+player1 moved to ({2},{2})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m 0 0 0 0 0 
+0 [0;31m0[0m 2 [0;33m0[0m 0 0 
+0 0 0 0 0 2 
+0 1 2 0 1 0 
+0 0 0 0 1 0 
+
+Participant's status:
+
+Name: player1
+Position: (2,1)
+Commitment: 2-20
+Score: -2
+NumTraps: 4
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 [0;31m2[0m 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 2-20
+Score: 5
+NumTraps: 0
+Map:
+0 0 2 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player3
+Position: (2,3)
+Commitment: 2-20
+Score: -27
+NumTraps: 29
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 [0;31m0[0m 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+sim: starting simulation round 78
+
+sim: Sending request to player1
+player1 moved to ({3},{1})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+[0;32m0[0m 0 2 [0;33m0[0m 0 0 
+0 [0;31m0[0m 0 0 0 2 
+0 1 2 0 1 0 
+0 0 0 0 1 0 
+
+Participant's status:
+
+Name: player1
+Position: (3,1)
+Commitment: 1-20
+Score: -2
+NumTraps: 4
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 0 0 2 
+0 [0;31m0[0m 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player2
+Position: (2,0)
+Commitment: 1-20
+Score: 5
+NumTraps: 0
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+[0;31m0[0m 2 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+Name: player3
+Position: (2,3)
+Commitment: 1-20
+Score: -28
+NumTraps: 30
+Map:
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+1 2 1 [0;31m0[0m 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+
+sim: starting simulation round 79
+
+sim: Sending request to player1
+player1 moved to ({4},{1})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m 0 0 0 0 0 
+0 0 2 [0;33m0[0m 0 0 
+0 0 0 0 0 2 
+0 [0;31m0[0m 2 0 1 1 
+0 0 0 0 1 0 
+
+Participant's status:
+
+Name: player1
+Position: (4,1)
+Commitment: 20-20
+Score: -1
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 [0;31m0[0m 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 20-20
+Score: 5
+NumTraps: 0
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player3
+Position: (2,3)
+Commitment: 20-20
+Score: -29
+NumTraps: 31
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 [0;31m0[0m 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+MAP RESCHEDULING!!
+
+sim: starting simulation round 80
+
+sim: Sending request to player1
+player1 moved to ({5},{1})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m 0 2 0 0 0 
+2 0 0 0 0 1 
+0 0 0 [0;33m0[0m 0 0 
+0 0 0 0 0 0 
+1 [0;31m0[0m 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (5,1)
+Commitment: 19-20
+Score: -1
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 [0;31m0[0m 0 0 1 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 19-20
+Score: 4
+NumTraps: 1
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player3
+Position: (3,3)
+Commitment: 19-20
+Score: -29
+NumTraps: 31
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 [0;31m0[0m 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+sim: starting simulation round 81
+
+sim: Sending request to player1
+player1 moved to ({6},{1})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m 0 2 0 0 0 
+2 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 0 [0;33m0[0m 0 0 
+1 [0;31m0[0m 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (5,1)
+Commitment: 18-20
+Score: -1
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 [0;31m0[0m 0 0 1 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 18-20
+Score: 3
+NumTraps: 2
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player3
+Position: (4,3)
+Commitment: 18-20
+Score: -29
+NumTraps: 31
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 [0;31m0[0m 1 1 
+0 0 0 0 1 0 
+
+sim: starting simulation round 82
+
+sim: Sending request to player1
+player1 moved to ({5},{0})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m 0 2 0 0 0 
+2 0 0 0 1 1 
+0 0 0 0 0 0 
+0 0 0 0 [0;33m0[0m 0 
+[0;31m0[0m 0 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (5,0)
+Commitment: 17-20
+Score: 0
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+[0;31m0[0m 0 0 0 1 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 17-20
+Score: 2
+NumTraps: 3
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player3
+Position: (4,4)
+Commitment: 17-20
+Score: -29
+NumTraps: 31
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 [0;31m0[0m 1 
+0 0 0 0 1 0 
+
+sim: starting simulation round 83
+
+sim: Sending request to player1
+player1 moved to ({4},{0})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m 0 2 0 0 0 
+2 0 0 0 1 1 
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 0 0 [0;33m0[0m 2 
+
+Participant's status:
+
+Name: player1
+Position: (4,0)
+Commitment: 16-20
+Score: 0
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+[0;31m0[0m 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 16-20
+Score: 1
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player3
+Position: (5,4)
+Commitment: 16-20
+Score: -29
+NumTraps: 31
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 0 1 
+0 0 0 0 [0;31m0[0m 0 
+
+sim: starting simulation round 84
+
+sim: Sending request to player1
+player1 moved to ({3},{0})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m 0 2 0 0 0 
+2 0 0 0 1 1 
+[0;31m0[0m 0 0 0 0 0 
+0 0 0 0 [0;33m0[0m 0 
+0 0 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (3,0)
+Commitment: 15-20
+Score: 0
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+[0;31m0[0m 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 15-20
+Score: 0
+NumTraps: 5
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player3
+Position: (4,4)
+Commitment: 15-20
+Score: -29
+NumTraps: 31
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 [0;31m0[0m 1 
+0 0 0 0 0 0 
+
+sim: starting simulation round 85
+
+sim: Sending request to player1
+player1 moved to ({3},{1})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m 0 2 0 0 0 
+2 0 0 0 1 1 
+0 [0;31m0[0m 0 0 0 0 
+0 0 0 0 0 [0;33m0[0m 
+0 0 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (3,1)
+Commitment: 14-20
+Score: 0
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 [0;31m0[0m 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 14-20
+Score: -1
+NumTraps: 6
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player3
+Position: (4,5)
+Commitment: 14-20
+Score: -29
+NumTraps: 31
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 0 [0;31m0[0m 
+0 0 0 0 0 0 
+
+sim: starting simulation round 86
+
+sim: Sending request to player1
+player1 moved to ({2},{1})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m 0 2 0 0 0 
+2 [0;31m0[0m 0 0 1 1 
+0 0 0 0 0 0 
+0 0 0 0 [0;33m0[0m 0 
+0 0 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (2,1)
+Commitment: 13-20
+Score: 0
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 [0;31m0[0m 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 13-20
+Score: -2
+NumTraps: 7
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player3
+Position: (4,4)
+Commitment: 13-20
+Score: -29
+NumTraps: 31
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 [0;31m0[0m 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 87
+
+sim: Sending request to player1
+player1 moved to ({1},{1})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m [0;31m0[0m 2 0 0 0 
+2 0 0 0 1 1 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 [0;33m0[0m 2 
+
+Participant's status:
+
+Name: player1
+Position: (1,1)
+Commitment: 12-20
+Score: 0
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 [0;31m0[0m 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 12-20
+Score: -3
+NumTraps: 8
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player3
+Position: (5,4)
+Commitment: 12-20
+Score: -29
+NumTraps: 31
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 0 0 
+0 0 0 0 [0;31m0[0m 0 
+
+sim: starting simulation round 88
+
+sim: Sending request to player1
+player1 moved to ({1},{0})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m [0;31m0[0m 2 0 0 0 
+2 0 0 0 1 1 
+0 0 0 0 0 0 
+0 0 0 0 [0;33m0[0m 0 
+0 0 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (1,1)
+Commitment: 11-20
+Score: 0
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 [0;31m0[0m 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 11-20
+Score: -4
+NumTraps: 9
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player3
+Position: (4,4)
+Commitment: 11-20
+Score: -29
+NumTraps: 31
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 [0;31m0[0m 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 89
+
+sim: Sending request to player1
+player1 moved to ({2},{1})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+0 0 0 0 0 0 
+[0;32m0[0m 0 2 0 0 0 
+2 [0;31m0[0m 0 0 1 1 
+0 0 0 0 [0;33m0[0m 0 
+0 0 0 0 0 0 
+0 0 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (2,1)
+Commitment: 10-20
+Score: 0
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 [0;31m0[0m 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 10-20
+Score: -5
+NumTraps: 10
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player3
+Position: (3,4)
+Commitment: 10-20
+Score: -29
+NumTraps: 31
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 [0;31m0[0m 2 
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+MAP RESCHEDULING!!
+
+sim: starting simulation round 90
+
+sim: Sending request to player1
+player1 moved to ({2},{2})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+2 0 0 0 0 0 
+[0;32m0[0m 0 0 0 0 0 
+2 1 [0;31m0[0m 0 1 0 
+0 0 0 [0;33m0[0m 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (2,2)
+Commitment: 9-20
+Score: 0
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 [0;31m2[0m 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 9-20
+Score: -6
+NumTraps: 11
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player3
+Position: (3,3)
+Commitment: 9-20
+Score: -29
+NumTraps: 31
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 [0;31m0[0m 0 2 
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 91
+
+sim: Sending request to player1
+player1 moved to ({1},{2})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+2 0 0 0 0 0 
+[0;32m0[0m 0 [0;31m0[0m 0 0 0 
+2 1 0 0 1 0 
+0 0 [0;33m0[0m 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (1,2)
+Commitment: 8-20
+Score: 0
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 [0;31m0[0m 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 8-20
+Score: -7
+NumTraps: 12
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player3
+Position: (3,2)
+Commitment: 8-20
+Score: -29
+NumTraps: 31
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 [0;31m0[0m 0 0 2 
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 92
+
+sim: Sending request to player1
+player1 moved to ({1},{1})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+2 0 0 0 0 0 
+[0;32m0[0m [0;31m0[0m 0 0 0 0 
+2 1 0 0 1 0 
+0 0 0 [0;33m0[0m 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (1,1)
+Commitment: 7-20
+Score: 0
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 [0;31m0[0m 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 7-20
+Score: -8
+NumTraps: 13
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player3
+Position: (3,3)
+Commitment: 7-20
+Score: -29
+NumTraps: 31
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 [0;31m0[0m 0 2 
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 93
+
+sim: Sending request to player1
+player1 moved to ({2},{1})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+2 0 0 0 0 0 
+[0;32m0[0m 0 0 0 0 0 
+2 [0;31m0[0m 0 [0;33m0[0m 1 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 0 0 0 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (2,1)
+Commitment: 6-20
+Score: 1
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 [0;31m0[0m 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 6-20
+Score: -9
+NumTraps: 14
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player3
+Position: (2,3)
+Commitment: 6-20
+Score: -29
+NumTraps: 31
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 [0;31m0[0m 0 0 
+0 0 0 0 0 2 
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 94
+
+sim: Sending request to player1
+player1 moved to ({1},{1})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+2 0 0 0 0 0 
+[0;32m0[0m [0;31m0[0m 0 0 0 0 
+2 0 0 0 [0;33m0[0m 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 0 0 1 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (1,1)
+Commitment: 5-20
+Score: 1
+NumTraps: 4
+Map:
+0 0 0 0 0 0 
+0 [0;31m0[0m 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 5-20
+Score: -10
+NumTraps: 15
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player3
+Position: (2,4)
+Commitment: 5-20
+Score: -28
+NumTraps: 31
+Map:
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 [0;31m0[0m 0 
+0 0 0 0 0 2 
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 95
+
+sim: Sending request to player1
+player1 moved to ({0},{1})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+2 [0;31m0[0m 0 0 0 0 
+[0;32m0[0m 0 0 0 [0;33m0[0m 0 
+2 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 0 0 1 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (0,1)
+Commitment: 4-20
+Score: 1
+NumTraps: 4
+Map:
+0 [0;31m0[0m 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 4-20
+Score: -11
+NumTraps: 16
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player3
+Position: (1,4)
+Commitment: 4-20
+Score: -28
+NumTraps: 31
+Map:
+0 0 0 0 0 0 
+0 0 0 0 [0;31m0[0m 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 96
+
+sim: Sending request to player1
+player1 moved to ({-1},{1})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+2 [0;31m0[0m 0 0 0 0 
+[0;32m0[0m 0 0 [0;33m0[0m 0 0 
+2 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 0 0 1 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (0,1)
+Commitment: 3-20
+Score: 1
+NumTraps: 4
+Map:
+0 [0;31m0[0m 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 3-20
+Score: -12
+NumTraps: 17
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player3
+Position: (1,3)
+Commitment: 3-20
+Score: -28
+NumTraps: 31
+Map:
+0 0 0 0 0 0 
+0 0 0 [0;31m0[0m 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 97
+
+sim: Sending request to player1
+player1 moved to ({0},{2})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+2 0 [0;31m0[0m 0 0 0 
+[0;32m0[0m 0 0 0 [0;33m0[0m 0 
+2 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 0 0 1 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (0,2)
+Commitment: 2-20
+Score: 1
+NumTraps: 4
+Map:
+0 0 [0;31m0[0m 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 2-20
+Score: -13
+NumTraps: 18
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player3
+Position: (1,4)
+Commitment: 2-20
+Score: -28
+NumTraps: 31
+Map:
+0 0 0 0 0 0 
+0 0 0 0 [0;31m0[0m 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 98
+
+sim: Sending request to player1
+player1 moved to ({-1},{2})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+2 0 [0;31m0[0m 0 0 0 
+[0;32m0[0m 0 0 [0;33m0[0m 0 0 
+2 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 0 0 1 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (0,2)
+Commitment: 1-20
+Score: 1
+NumTraps: 4
+Map:
+0 0 [0;31m0[0m 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player2
+Position: (1,0)
+Commitment: 1-20
+Score: -14
+NumTraps: 19
+Map:
+0 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 1 1 
+0 0 0 0 1 0 
+
+Name: player3
+Position: (1,3)
+Commitment: 1-20
+Score: -28
+NumTraps: 31
+Map:
+0 0 0 0 0 0 
+0 0 0 [0;31m0[0m 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 2 
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+
+sim: starting simulation round 99
+
+sim: Sending request to player1
+player1 moved to ({0},{3})
+
+sim: Sending request to player2
+
+sim: Sending request to player3
+player3 is deliberating a new plan...
+
+Simulator's agent status:
+2 0 0 [0;31m0[0m 0 0 
+[0;32m0[0m 0 0 [0;33m0[0m 0 0 
+2 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 0 0 1 0 2 
+
+Participant's status:
+
+Name: player1
+Position: (0,3)
+Commitment: 20-20
+Score: 1
+NumTraps: 4
+Map:
+2 0 0 [0;31m0[0m 0 0 
+0 0 0 0 0 0 
+2 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 0 0 1 0 2 
+
+Name: player2
+Position: (1,0)
+Commitment: 20-20
+Score: -15
+NumTraps: 20
+Map:
+2 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+2 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 0 0 1 0 2 
+
+Name: player3
+Position: (1,3)
+Commitment: 20-20
+Score: -28
+NumTraps: 31
+Map:
+2 0 0 0 0 0 
+0 0 0 [0;31m0[0m 0 0 
+2 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 0 0 1 0 2 
+MAP RESCHEDULING!!
+sim: SIMULATION ENDED!!!
+
+Simulator's agent status:
+0 2 0 [0;31m0[0m 0 0 
+[0;32m0[0m 0 0 [0;33m0[0m 0 0 
+0 0 0 0 0 0 
+0 2 0 0 0 0 
+0 0 2 0 0 0 
+1 0 0 1 0 0 
+
+Participant's status:
+
+Name: player1
+Position: (0,3)
+Commitment: 20-20
+Score: 1
+NumTraps: 4
+Map:
+2 0 0 [0;31m0[0m 0 0 
+0 0 0 0 0 0 
+2 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 0 0 1 0 2 
+
+Name: player2
+Position: (1,0)
+Commitment: 20-20
+Score: -15
+NumTraps: 20
+Map:
+2 0 0 0 0 0 
+[0;31m0[0m 0 0 0 0 0 
+2 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 0 0 1 0 2 
+
+Name: player3
+Position: (1,3)
+Commitment: 20-20
+Score: -28
+NumTraps: 31
+Map:
+2 0 0 0 0 0 
+0 0 0 [0;31m0[0m 0 0 
+2 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 0 0 1 0 2 
+Simulation finished. Terminating.
+player2: Simulation finished. Terminating.
+player3: Simulation finished. Terminating.

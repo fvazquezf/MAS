@@ -15,13 +15,13 @@ public class SimulatorAgent extends Agent {
     private Map _map;
     
     // Map parameters
-    int mapSize = 6;
-    int numItems = 3;
-    int numTraps = 3;
+    int mapSize = 10;
+    int numItems = 5;
+    int numTraps = 10;
     
     // Simulation parameters
     int numParticipants = 3;
-    int numSimRounds = 100;
+    int numSimRounds = 1000;
     int numStepsMapReDist = 10; // If equals numSimRounds, implies no map rescheduling
     
     // Simulation state
@@ -81,6 +81,7 @@ public class SimulatorAgent extends Agent {
                     showOverallState();
 
                     doDelete();
+                    System.exit(0);
                 }
                 
                 // Either simulation running or not started

@@ -18,10 +18,17 @@ public class PlannerAgent extends Agent {
     private AID simulatorAID;
     private int commitment = 1;
 
-    // --- INTERNAL STATE FOR DELIBERATIVE AGENT ---
+// --- INTERNAL STATE FOR DELIBERATIVE AGENT ---
     private List<Position> currentPlan = new ArrayList<>();
     private Position currentTarget = null;
     private MapNavigator navigator = new MapNavigator(); 
+
+    // --- ADAPTIVE LEARNING VARIABLES ---
+    private int turnsSinceLastUpdate = 0;
+    private int stepsTakenSinceUpdate = 0;
+    private int learnedMaxSafeSteps = 1000; // Starts incredibly high
+    private Position lastRequestedPosition = null;
+    private boolean waitingForFreshMap = false;
 
     @Override
     protected void setup() {
@@ -128,18 +135,43 @@ public class PlannerAgent extends Agent {
             }
         }
     }
-
     // --- DELIBERATIVE DECISION LOGIC ---
 
     private Position findDeliberativeMove() {
         Map currentMap = myState.getMap();
         Position currentPos = myState.getPosition();
 
-        // 1. Evaluate if our current plan is broken or finished
-        if (needsReplanning(currentMap, currentPos)) {
-            System.out.println(getLocalName() + " is deliberating a new plan...");
-            currentPlan = calculatePathBFS(currentMap, currentPos);
+        // 1. UPDATE CLOCK: Did we just get a fresh map from our commitment?
+        turnsSinceLastUpdate++;
+        if (turnsSinceLastUpdate >= commitment) {
+            turnsSinceLastUpdate = 0;
+            stepsTakenSinceUpdate = 0;
+            waitingForFreshMap = false; // We can trust the world again
+            // System.out.println(getLocalName() + " got a fresh map! Resetting counters.");
+        }
+
+        // 2. LEARNING TRIGGER: Did we hit something unexpected?
+        // If we asked to move last turn, but we are still in the same spot, we hit an invisible trap!
+        if (lastRequestedPosition != null && !currentPos.equals(lastRequestedPosition) && !waitingForFreshMap) {
             
+            // We failed! Update our learned counter to the number of successful steps we took.
+            // We use Math.max(1, ...) so the agent never learns a limit of 0 (which would freeze it forever).
+            learnedMaxSafeSteps = Math.max(1, stepsTakenSinceUpdate);
+            
+            System.out.println(getLocalName() + " bumped into something! Updating learnedMaxSafeSteps to: " + learnedMaxSafeSteps);
+            
+            waitingForFreshMap = true; // Drop everything and wait for a fresh map
+        }
+
+        // 3. APPLY LEARNED LIMIT: Stop moving if we reach the max safe steps
+        if (waitingForFreshMap || stepsTakenSinceUpdate >= learnedMaxSafeSteps) {
+            lastRequestedPosition = currentPos; 
+            return currentPos; // Refuse to move, avoid trap penalties!
+        }
+
+        // 4. NORMAL PLANNING
+        if (needsReplanning(currentMap, currentPos)) {
+            currentPlan = calculatePathBFS(currentMap, currentPos);
             if (!currentPlan.isEmpty()) {
                 currentTarget = currentPlan.get(currentPlan.size() - 1);
             } else {
@@ -147,33 +179,27 @@ public class PlannerAgent extends Agent {
             }
         }
 
-        // 2. Execute the next step of the plan
+        // 5. EXECUTE PLAN
         if (currentPlan != null && !currentPlan.isEmpty()) {
-            return currentPlan.remove(0); // Pop the next move off the list
+            Position nextStep = currentPlan.remove(0);
+            lastRequestedPosition = nextStep; // Remember where we tried to go
+            stepsTakenSinceUpdate++;          // Increment our safe steps counter
+            return nextStep;
         }
 
-        // 3. Fallback: If no plan can be made (e.g., trapped or no items), try to move randomly but safely
-        return getRandomSafeStep(currentMap, currentPos);
+        // Fallback: stay still if no items exist
+        lastRequestedPosition = currentPos;
+        return currentPos;
     }
 
     private boolean needsReplanning(Map map, Position currentPos) {
-        // No plan exists
         if (currentPlan == null || currentPlan.isEmpty() || currentTarget == null) return true;
-
-        // The target item we were walking towards is no longer there!
         if (!map.isItemPosition(currentTarget)) return true;
-
-        // A trap suddenly appeared somewhere along our planned path!
+        
         for (Position p : currentPlan) {
             if (map.isTrapPosition(p)) return true;
         }
-
-        // We were bumped or rejected on the last turn, so we aren't where the plan expected us to be
-        Position nextExpectedStep = currentPlan.get(0);
-        int dist = Math.abs(nextExpectedStep.x - currentPos.x) + Math.abs(nextExpectedStep.y - currentPos.y);
-        if (dist != 1) return true;
-
-        return false; // Plan is solid!
+        return false;
     }
 
     private List<Position> calculatePathBFS(Map map, Position start) {
